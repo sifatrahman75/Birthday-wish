@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="class" id="class-area">
+      <input type="text" class="input" id="input-area" placeholder="please enter your nickname">
+      <button class="button" id="button-1" onclick="toGetInput('A')">A</button>
+      <button class="button" id="button-2" onclick="toGetInput('E')">E</button>
+      <button class="button" id="button-3" onclick="toGetInput('H')">H</button>
+      <button class="button" id="button-4" onclick="toGetInput('I')">I</button>
+      <button class="button" id="button-5" onclick="toGetInput('O')">O</button>
+      <button class="button" id="button-6" onclick="toGetInput('S')">S</button>
+      <button class="button" id="button-7" onclick="toGetInput('C')">C</button>
+      <button class="button" id="button-8" onclick="toGetInput('U')">U</button>
+      <button class="button" id="button-9" onclick="document.getElementById('input-area').value ='' ">AC</button>
+      <button type="button" class="btn btn-primary" id="submit-button" onclick="toShowChoice()">SUBMIT</button>
+    </div>
+<!-- Second part starts here -->
+    <div class="choice" id="choice-area">
+      <h1>HEY, IS IT YOUR BIRTHDAY TODAY???</h1>
+      <button id="select-button" onclick="toHideYes()">Obviously,YES!!!</button>
+    </div>
+<!-- Na mille santona dekhano -->
+    <div id="santona">
+      <h1>Sorry,Its not for you....</h1>
+    </div>
+<!-- Asol jinis -->
+  <!-- wish part starts header -->
+  <div id="asol-jinis" class="asol">
+    <!-- wish part starts header -->
+    <div class="containers" id="asol-jinis">
+      <div class="heading">
+        <h1>“HAPPY BIRTHDAY”</h1>
+      </div>
+    </div>
+    <!-- Carousel starts here -->
+    <div class="carousels">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="image/1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="image/2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="image/3.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="image/4.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="image/5.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="image/6.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+    <!-- Quotes start here -->
+    <div class="quotation" id="quote">
+      <div class="quoteArea">
+        <div class="lines" id="lines-1">
+          <h5>“Birthdays are a special occasion celebrating your entry into this wonderful world. Enjoy your special day and rejoice in the gift of life, family and friends.”</h5>
+        </div>
+        <div class="lines" id="lines-2">
+          <h5>“The happiest person in the world is the one who thinks the most interesting thoughts and we grow happier as we grow older.”</h5>
+        </div>
+        <div class="lines" id="lines-3">
+          <h5>“Today you are another year older, and we know how fast time flys as we get older, therefore, live each day and be happy!” </h5>
+        </div>
+        <div class="lines" id="lines-4">
+          <h5>“Wishing you greatest birthday ever, full of love and joy from the moment you open your eyes in the morning until you sleep for the night.”</h5>
+        </div>
+      </div>
+      <div class="Area">
+        <img src="image/gif.gif">
+      </div>
+    </div>
+    <!-- youtube-video-1 -->
+    <div class="video">
+      <iframe width="1152" height="315" src="https://www.youtube.com/embed/WfMTWsBtgr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!-- Ending starts here -->
+    <div class="ending">
+      <h1>Thank you for always being older than me.</h1>
+    </div>
+  </div>
+  </div>
+
+<!-- js starts here -->
+  <script>
+    // to get input
+    function toGetInput(digit){
+      let primaryInput = document.getElementById("input-area").value;
+      let finalInput = primaryInput + digit;
+      document.getElementById("input-area").value = finalInput;
+    }
+  //to hide choice & Santona button
+    document.getElementById('choice-area').style.display = 'none';
+    document.getElementById('santona').style.display = 'none';
+  //to show choice button & hide input
+   function toShowChoice(){
+     if(document.getElementById("input-area").value == "ESHA"){
+      document.getElementById('choice-area').style.display = 'block';
+      document.getElementById('class-area').style.display = 'none';
+     }
+     else{
+      document.getElementById('santona').style.display = 'block';
+      document.getElementById('class-area').style.display = 'none';
+     }
+   }
+//to hide asol khela
+    document.getElementById('asol-jinis').style.display='none';
+//to hide yes div
+   function toHideYes(){
+    document.getElementById('asol-jinis').style.display='block';
+    document.getElementById('choice-area').style.display = 'none';
+   }
+//asol jinis hide kora
+ document.getElementById('asol-jinis').style.display = 'none';
+  </script>
+</body>
+</html>

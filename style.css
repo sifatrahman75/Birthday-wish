@@ -1,0 +1,131 @@
+.class{
+  height: 480px;
+  width: 450px;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px 100px ;
+  grid-template-columns: 150px 150px 150px;
+  background-color:#BED7E5;
+  margin: 100px auto;
+}
+.button{
+  background-color: rgb(75, 74, 73);
+  color: white;
+  font-size: 25px;
+  margin: 5px;
+  border-radius: 10px;
+}
+#input-area{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color:#F5F6F6;
+  text-align: center;
+  font-size: 36px;
+}
+#submit-button{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 60px;
+  width: 450px;
+  margin-top: 20px;
+}
+.choice h1{
+  color: red;
+  font-size: 100px;
+  margin: 50px;
+}
+#select-button{
+  height: 80px;
+  width: 300px;
+  font-size: 40px;
+  margin-left:400px;
+  border-radius: 5px;
+}
+#santona h1{
+  font-size: 150px;
+  margin-top: 200px;
+}
+
+/* 
+here */
+.heading{
+  height: 100px;
+  width: 1152px;
+  margin: 0 auto;
+  background-color: beige;
+  /* border: 1px solid red; */
+  /* margin-top: -50px; */
+}
+.heading h1{
+  font-family: 'Salsa', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+.carousels{
+  width: 1152px;
+  height: 635px;
+  /* border: 2px solid black; */
+  margin: 0 auto;
+  margin-top: 12px;
+}
+.carousel-item{
+  width: 1152px;
+  height: 635px;
+}
+.quotation{
+  width: 1152px;
+  height: 500px;
+  /* border:1px solid blue; */
+  display: grid;
+  grid-template-rows: 500px;
+  grid-template-columns: 576px 576px;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom:13px ;
+}
+.quoteArea{
+  /* border: 1px solid yellow; */
+  display: grid;
+  grid-template-rows: 125px 125px 125px 125px;
+  grid-template-columns: 576px;
+  background-color:rgb(27, 26, 26);
+}
+.lines{
+  /* border:1px solid blue; */
+  text-align: justify;
+  padding-top:30px ;
+}
+.Area img{
+  height: 100%;
+  width: 100%;
+}
+#lines-1{
+  color: blue;
+}
+#lines-2{
+  color: saddlebrown;
+}
+#lines-3{
+  color: darkorange;
+}
+#lines-4{
+  color: purple;
+}
+.video{
+  /* margin-top: 12px; */
+  margin: 0 auto;
+  /* margin-left: 450px; */
+  background-color: #EDEAE7;
+  width: 1152px;
+}
+.ending{
+  width: 1152px;
+  height: 75px;
+  background-color: coral;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 12px;
+  padding-top: 10px;
+}
